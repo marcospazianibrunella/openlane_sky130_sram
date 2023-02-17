@@ -98,7 +98,7 @@ Path Type: max
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.00    0.00   50.00 v oram_clk1 (in)
-     1    0.05                           oram_clk1 (net)
+     1    0.06                           oram_clk1 (net)
                   0.02    0.01   50.01 v openram_1kB/clk1 (sky130_sram_1kbyte_1rw1r_32x256_8)
                                  50.01   data arrival time
 -----------------------------------------------------------------------------
@@ -170,11 +170,11 @@ Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power (Watts)
 ----------------------------------------------------------------
 Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-Combinational          3.29e-13   5.18e-13   1.89e-08   1.89e-08 100.0%
+Combinational          3.29e-13   5.55e-13   1.89e-08   1.89e-08 100.0%
 Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 ----------------------------------------------------------------
-Total                  3.29e-13   5.18e-13   1.89e-08   1.89e-08 100.0%
+Total                  3.29e-13   5.55e-13   1.89e-08   1.89e-08 100.0%
                            0.0%       0.0%     100.0%
 power_report_end
 area_report

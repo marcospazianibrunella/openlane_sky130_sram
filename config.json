@@ -1,5 +1,5 @@
 {
-    "PDK": "sky130B",
+    "PDK": "sky130A",
     "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
     "DESIGN_NAME": "ram_example",
     "FP_CORE_UTIL": "35",
@@ -10,6 +10,9 @@
     "MACRO_PLACEMENT_CFG": "dir::macro_placement.cfg",
     "BASE_SDC_FILE": "dir::base.sdc",
     "PL_TARGET_DENSITY": 1,
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "PL_BASIC_PLACEMENT": 1,
     "DPL_CELL_PADDING": 0,
     "CLOCK_PERIOD": 100,

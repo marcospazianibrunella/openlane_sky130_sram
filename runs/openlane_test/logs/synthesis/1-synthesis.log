@@ -478,8 +478,8 @@ mapping tbuf
 
 11. Executing TECHMAP pass (map to technology primitives).
 
-11.1. Executing Verilog-2005 frontend: /tools/pdks/share/pdk/sky130B/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
-Parsing Verilog input from `/tools/pdks/share/pdk/sky130B/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
+11.1. Executing Verilog-2005 frontend: /tools/pdks/share/pdk/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v
+Parsing Verilog input from `/tools/pdks/share/pdk/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v' to AST representation.
 Generating RTLIL representation for module `\$_TBUF_'.
 Successfully finished Verilog frontend.
 
@@ -491,8 +491,8 @@ No more expansions possible.
 
 13. Executing TECHMAP pass (map to technology primitives).
 
-13.1. Executing Verilog-2005 frontend: /tools/pdks/share/pdk/sky130B/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
-Parsing Verilog input from `/tools/pdks/share/pdk/sky130B/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
+13.1. Executing Verilog-2005 frontend: /tools/pdks/share/pdk/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v
+Parsing Verilog input from `/tools/pdks/share/pdk/sky130A/libs.tech/openlane/sky130_fd_sc_hd/latch_map.v' to AST representation.
 Generating RTLIL representation for module `\$_DLATCH_P_'.
 Generating RTLIL representation for module `\$_DLATCH_N_'.
 Successfully finished Verilog frontend.
@@ -549,7 +549,7 @@ Mapping DFF cells in module `\ram_example':
 
 17. Executing ABC pass (technology mapping using ABC).
 
-17.1. Extracting gate netlist of module `\ram_example' to `/tmp/yosys-abc-GjY0IU/input.blif'..
+17.1. Extracting gate netlist of module `\ram_example' to `/tmp/yosys-abc-qhpLxG/input.blif'..
 Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
 Don't call ABC as there is nothing to map.
 Removing temp directory.
@@ -592,6 +592,6 @@ Found and reported 0 problems.
 25.2. Executing DEMUXMAP pass.
 Dumping module `\ram_example'.
 
-End of script. Logfile hash: c0f7843adb, CPU: user 0.21s system 0.01s, MEM: 27.80 MB peak
+End of script. Logfile hash: d526395b32, CPU: user 0.21s system 0.00s, MEM: 27.67 MB peak
 Yosys 0.20+70 (git sha1 6e907acf86d, gcc 8.3.1 -fPIC -Os)
 Time spent: 38% 1x dfflibmap (0 sec), 38% 4x stat (0 sec), ...

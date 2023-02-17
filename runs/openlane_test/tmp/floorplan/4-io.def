@@ -1,0 +1,902 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN ram_example ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 749210 759930 ) ;
+ROW ROW_0 unithd 5520 10880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_1 unithd 5520 13600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_2 unithd 5520 16320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_3 unithd 5520 19040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_4 unithd 5520 21760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_5 unithd 5520 24480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_6 unithd 5520 27200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_7 unithd 5520 29920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_8 unithd 5520 32640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_9 unithd 5520 35360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_10 unithd 5520 38080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_11 unithd 5520 40800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_12 unithd 5520 43520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_13 unithd 5520 46240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_14 unithd 5520 48960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_15 unithd 5520 51680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_16 unithd 5520 54400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_17 unithd 5520 57120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_18 unithd 5520 59840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_19 unithd 5520 62560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_20 unithd 5520 65280 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_21 unithd 5520 68000 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_22 unithd 5520 70720 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_23 unithd 5520 73440 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_24 unithd 5520 76160 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_25 unithd 5520 78880 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_26 unithd 5520 81600 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_27 unithd 5520 84320 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_28 unithd 5520 87040 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_29 unithd 5520 89760 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_30 unithd 5520 92480 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_31 unithd 5520 95200 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_32 unithd 5520 97920 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_33 unithd 5520 100640 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_34 unithd 5520 103360 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_35 unithd 5520 106080 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_36 unithd 5520 108800 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_37 unithd 5520 111520 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_38 unithd 5520 114240 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_39 unithd 5520 116960 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_40 unithd 5520 119680 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_41 unithd 5520 122400 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_42 unithd 5520 125120 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_43 unithd 5520 127840 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_44 unithd 5520 130560 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_45 unithd 5520 133280 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_46 unithd 5520 136000 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_47 unithd 5520 138720 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_48 unithd 5520 141440 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_49 unithd 5520 144160 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_50 unithd 5520 146880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_51 unithd 5520 149600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_52 unithd 5520 152320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_53 unithd 5520 155040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_54 unithd 5520 157760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_55 unithd 5520 160480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_56 unithd 5520 163200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_57 unithd 5520 165920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_58 unithd 5520 168640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_59 unithd 5520 171360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_60 unithd 5520 174080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_61 unithd 5520 176800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_62 unithd 5520 179520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_63 unithd 5520 182240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_64 unithd 5520 184960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_65 unithd 5520 187680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_66 unithd 5520 190400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_67 unithd 5520 193120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_68 unithd 5520 195840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_69 unithd 5520 198560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_70 unithd 5520 201280 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_71 unithd 5520 204000 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_72 unithd 5520 206720 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_73 unithd 5520 209440 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_74 unithd 5520 212160 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_75 unithd 5520 214880 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_76 unithd 5520 217600 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_77 unithd 5520 220320 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_78 unithd 5520 223040 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_79 unithd 5520 225760 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_80 unithd 5520 228480 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_81 unithd 5520 231200 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_82 unithd 5520 233920 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_83 unithd 5520 236640 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_84 unithd 5520 239360 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_85 unithd 5520 242080 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_86 unithd 5520 244800 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_87 unithd 5520 247520 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_88 unithd 5520 250240 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_89 unithd 5520 252960 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_90 unithd 5520 255680 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_91 unithd 5520 258400 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_92 unithd 5520 261120 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_93 unithd 5520 263840 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_94 unithd 5520 266560 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_95 unithd 5520 269280 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_96 unithd 5520 272000 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_97 unithd 5520 274720 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_98 unithd 5520 277440 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_99 unithd 5520 280160 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_100 unithd 5520 282880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_101 unithd 5520 285600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_102 unithd 5520 288320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_103 unithd 5520 291040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_104 unithd 5520 293760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_105 unithd 5520 296480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_106 unithd 5520 299200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_107 unithd 5520 301920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_108 unithd 5520 304640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_109 unithd 5520 307360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_110 unithd 5520 310080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_111 unithd 5520 312800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_112 unithd 5520 315520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_113 unithd 5520 318240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_114 unithd 5520 320960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_115 unithd 5520 323680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_116 unithd 5520 326400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_117 unithd 5520 329120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_118 unithd 5520 331840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_119 unithd 5520 334560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_120 unithd 5520 337280 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_121 unithd 5520 340000 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_122 unithd 5520 342720 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_123 unithd 5520 345440 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_124 unithd 5520 348160 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_125 unithd 5520 350880 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_126 unithd 5520 353600 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_127 unithd 5520 356320 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_128 unithd 5520 359040 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_129 unithd 5520 361760 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_130 unithd 5520 364480 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_131 unithd 5520 367200 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_132 unithd 5520 369920 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_133 unithd 5520 372640 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_134 unithd 5520 375360 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_135 unithd 5520 378080 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_136 unithd 5520 380800 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_137 unithd 5520 383520 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_138 unithd 5520 386240 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_139 unithd 5520 388960 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_140 unithd 5520 391680 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_141 unithd 5520 394400 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_142 unithd 5520 397120 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_143 unithd 5520 399840 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_144 unithd 5520 402560 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_145 unithd 5520 405280 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_146 unithd 5520 408000 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_147 unithd 5520 410720 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_148 unithd 5520 413440 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_149 unithd 5520 416160 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_150 unithd 5520 418880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_151 unithd 5520 421600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_152 unithd 5520 424320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_153 unithd 5520 427040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_154 unithd 5520 429760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_155 unithd 5520 432480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_156 unithd 5520 435200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_157 unithd 5520 437920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_158 unithd 5520 440640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_159 unithd 5520 443360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_160 unithd 5520 446080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_161 unithd 5520 448800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_162 unithd 5520 451520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_163 unithd 5520 454240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_164 unithd 5520 456960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_165 unithd 5520 459680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_166 unithd 5520 462400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_167 unithd 5520 465120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_168 unithd 5520 467840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_169 unithd 5520 470560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_170 unithd 5520 473280 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_171 unithd 5520 476000 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_172 unithd 5520 478720 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_173 unithd 5520 481440 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_174 unithd 5520 484160 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_175 unithd 5520 486880 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_176 unithd 5520 489600 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_177 unithd 5520 492320 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_178 unithd 5520 495040 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_179 unithd 5520 497760 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_180 unithd 5520 500480 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_181 unithd 5520 503200 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_182 unithd 5520 505920 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_183 unithd 5520 508640 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_184 unithd 5520 511360 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_185 unithd 5520 514080 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_186 unithd 5520 516800 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_187 unithd 5520 519520 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_188 unithd 5520 522240 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_189 unithd 5520 524960 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_190 unithd 5520 527680 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_191 unithd 5520 530400 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_192 unithd 5520 533120 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_193 unithd 5520 535840 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_194 unithd 5520 538560 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_195 unithd 5520 541280 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_196 unithd 5520 544000 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_197 unithd 5520 546720 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_198 unithd 5520 549440 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_199 unithd 5520 552160 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_200 unithd 5520 554880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_201 unithd 5520 557600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_202 unithd 5520 560320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_203 unithd 5520 563040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_204 unithd 5520 565760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_205 unithd 5520 568480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_206 unithd 5520 571200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_207 unithd 5520 573920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_208 unithd 5520 576640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_209 unithd 5520 579360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_210 unithd 5520 582080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_211 unithd 5520 584800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_212 unithd 5520 587520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_213 unithd 5520 590240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_214 unithd 5520 592960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_215 unithd 5520 595680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_216 unithd 5520 598400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_217 unithd 5520 601120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_218 unithd 5520 603840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_219 unithd 5520 606560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_220 unithd 5520 609280 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_221 unithd 5520 612000 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_222 unithd 5520 614720 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_223 unithd 5520 617440 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_224 unithd 5520 620160 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_225 unithd 5520 622880 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_226 unithd 5520 625600 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_227 unithd 5520 628320 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_228 unithd 5520 631040 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_229 unithd 5520 633760 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_230 unithd 5520 636480 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_231 unithd 5520 639200 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_232 unithd 5520 641920 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_233 unithd 5520 644640 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_234 unithd 5520 647360 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_235 unithd 5520 650080 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_236 unithd 5520 652800 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_237 unithd 5520 655520 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_238 unithd 5520 658240 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_239 unithd 5520 660960 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_240 unithd 5520 663680 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_241 unithd 5520 666400 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_242 unithd 5520 669120 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_243 unithd 5520 671840 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_244 unithd 5520 674560 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_245 unithd 5520 677280 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_246 unithd 5520 680000 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_247 unithd 5520 682720 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_248 unithd 5520 685440 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_249 unithd 5520 688160 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_250 unithd 5520 690880 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_251 unithd 5520 693600 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_252 unithd 5520 696320 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_253 unithd 5520 699040 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_254 unithd 5520 701760 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_255 unithd 5520 704480 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_256 unithd 5520 707200 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_257 unithd 5520 709920 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_258 unithd 5520 712640 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_259 unithd 5520 715360 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_260 unithd 5520 718080 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_261 unithd 5520 720800 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_262 unithd 5520 723520 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_263 unithd 5520 726240 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_264 unithd 5520 728960 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_265 unithd 5520 731680 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_266 unithd 5520 734400 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_267 unithd 5520 737120 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_268 unithd 5520 739840 N DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_269 unithd 5520 742560 FS DO 1604 BY 1 STEP 460 0 ;
+ROW ROW_270 unithd 5520 745280 N DO 1604 BY 1 STEP 460 0 ;
+TRACKS X 230 DO 1629 STEP 460 LAYER li1 ;
+TRACKS Y 170 DO 2235 STEP 340 LAYER li1 ;
+TRACKS X 170 DO 2204 STEP 340 LAYER met1 ;
+TRACKS Y 170 DO 2235 STEP 340 LAYER met1 ;
+TRACKS X 230 DO 1629 STEP 460 LAYER met2 ;
+TRACKS Y 230 DO 1652 STEP 460 LAYER met2 ;
+TRACKS X 340 DO 1102 STEP 680 LAYER met3 ;
+TRACKS Y 340 DO 1118 STEP 680 LAYER met3 ;
+TRACKS X 460 DO 814 STEP 920 LAYER met4 ;
+TRACKS Y 460 DO 826 STEP 920 LAYER met4 ;
+TRACKS X 1700 DO 220 STEP 3400 LAYER met5 ;
+TRACKS Y 1700 DO 224 STEP 3400 LAYER met5 ;
+COMPONENTS 1 ;
+    - openram_1kB sky130_sram_1kbyte_1rw1r_32x256_8 ;
+END COMPONENTS
+PINS 121 ;
+    - oram_addr0[0] + NET oram_addr0[0] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 711850 757930 ) N ;
+    - oram_addr0[1] + NET oram_addr0[1] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 641010 757930 ) N ;
+    - oram_addr0[2] + NET oram_addr0[2] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 285940 ) N ;
+    - oram_addr0[3] + NET oram_addr0[3] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 605590 2000 ) N ;
+    - oram_addr0[4] + NET oram_addr0[4] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 396290 757930 ) N ;
+    - oram_addr0[5] + NET oram_addr0[5] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 737610 757930 ) N ;
+    - oram_addr0[6] + NET oram_addr0[6] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 177330 757930 ) N ;
+    - oram_addr0[7] + NET oram_addr0[7] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 591940 ) N ;
+    - oram_addr1[0] + NET oram_addr1[0] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 102340 ) N ;
+    - oram_addr1[1] + NET oram_addr1[1] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 646340 ) N ;
+    - oram_addr1[2] + NET oram_addr1[2] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 541190 757930 ) N ;
+    - oram_addr1[3] + NET oram_addr1[3] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 444590 757930 ) N ;
+    - oram_addr1[4] + NET oram_addr1[4] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 167670 2000 ) N ;
+    - oram_addr1[5] + NET oram_addr1[5] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 290030 2000 ) N ;
+    - oram_addr1[6] + NET oram_addr1[6] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 557290 2000 ) N ;
+    - oram_addr1[7] + NET oram_addr1[7] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 408340 ) N ;
+    - oram_clk0 + NET oram_clk0 + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 364090 2000 ) N ;
+    - oram_clk1 + NET oram_clk1 + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 27540 ) N ;
+    - oram_csb0 + NET oram_csb0 + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 670140 ) N ;
+    - oram_csb1 + NET oram_csb1 + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 51340 ) N ;
+    - oram_din0[0] + NET oram_din0[0] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 336940 ) N ;
+    - oram_din0[10] + NET oram_din0[10] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 415140 ) N ;
+    - oram_din0[11] + NET oram_din0[11] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 387940 ) N ;
+    - oram_din0[12] + NET oram_din0[12] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 207740 ) N ;
+    - oram_din0[13] + NET oram_din0[13] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 486540 ) N ;
+    - oram_din0[14] + NET oram_din0[14] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 513740 ) N ;
+    - oram_din0[15] + NET oram_din0[15] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 438940 ) N ;
+    - oram_din0[16] + NET oram_din0[16] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 322230 757930 ) N ;
+    - oram_din0[17] + NET oram_din0[17] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 215970 2000 ) N ;
+    - oram_din0[18] + NET oram_din0[18] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 370530 757930 ) N ;
+    - oram_din0[19] + NET oram_din0[19] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 690540 ) N ;
+    - oram_din0[1] + NET oram_din0[1] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 721140 ) N ;
+    - oram_din0[20] + NET oram_din0[20] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 193430 2000 ) N ;
+    - oram_din0[21] + NET oram_din0[21] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 75140 ) N ;
+    - oram_din0[22] + NET oram_din0[22] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 748340 ) N ;
+    - oram_din0[23] + NET oram_din0[23] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 492890 757930 ) N ;
+    - oram_din0[24] + NET oram_din0[24] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 203090 757930 ) N ;
+    - oram_din0[25] + NET oram_din0[25] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 299690 757930 ) N ;
+    - oram_din0[26] + NET oram_din0[26] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 588540 ) N ;
+    - oram_din0[27] + NET oram_din0[27] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 225630 757930 ) N ;
+    - oram_din0[28] + NET oram_din0[28] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 564740 ) N ;
+    - oram_din0[29] + NET oram_din0[29] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 679650 2000 ) N ;
+    - oram_din0[2] + NET oram_din0[2] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 434930 2000 ) N ;
+    - oram_din0[30] + NET oram_din0[30] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 129030 757930 ) N ;
+    - oram_din0[31] + NET oram_din0[31] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 727950 2000 ) N ;
+    - oram_din0[3] + NET oram_din0[3] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 697340 ) N ;
+    - oram_din0[4] + NET oram_din0[4] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 96830 2000 ) N ;
+    - oram_din0[5] + NET oram_din0[5] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 615740 ) N ;
+    - oram_din0[6] + NET oram_din0[6] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 459340 ) N ;
+    - oram_din0[7] + NET oram_din0[7] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 460690 2000 ) N ;
+    - oram_din0[8] + NET oram_din0[8] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 258740 ) N ;
+    - oram_din0[9] + NET oram_din0[9] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 435540 ) N ;
+    - oram_dout0[0] + NET oram_dout0[0] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 517140 ) N ;
+    - oram_dout0[10] + NET oram_dout0[10] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 489940 ) N ;
+    - oram_dout0[11] + NET oram_dout0[11] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 540940 ) N ;
+    - oram_dout0[12] + NET oram_dout0[12] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 126140 ) N ;
+    - oram_dout0[13] + NET oram_dout0[13] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 347990 757930 ) N ;
+    - oram_dout0[14] + NET oram_dout0[14] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 589490 757930 ) N ;
+    - oram_dout0[15] + NET oram_dout0[15] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 306340 ) N ;
+    - oram_dout0[16] + NET oram_dout0[16] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 234940 ) N ;
+    - oram_dout0[17] + NET oram_dout0[17] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 156740 ) N ;
+    - oram_dout0[18] + NET oram_dout0[18] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 103270 757930 ) N ;
+    - oram_dout0[19] + NET oram_dout0[19] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 537540 ) N ;
+    - oram_dout0[1] + NET oram_dout0[1] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 705410 2000 ) N ;
+    - oram_dout0[20] + NET oram_dout0[20] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 183940 ) N ;
+    - oram_dout0[21] + NET oram_dout0[21] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 663550 757930 ) N ;
+    - oram_dout0[22] + NET oram_dout0[22] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 78540 ) N ;
+    - oram_dout0[23] + NET oram_dout0[23] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 631350 2000 ) N ;
+    - oram_dout0[24] + NET oram_dout0[24] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 315790 2000 ) N ;
+    - oram_dout0[25] + NET oram_dout0[25] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 251390 757930 ) N ;
+    - oram_dout0[26] + NET oram_dout0[26] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 54970 757930 ) N ;
+    - oram_dout0[27] + NET oram_dout0[27] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 333540 ) N ;
+    - oram_dout0[28] + NET oram_dout0[28] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 54740 ) N ;
+    - oram_dout0[29] + NET oram_dout0[29] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 282540 ) N ;
+    - oram_dout0[2] + NET oram_dout0[2] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 80730 757930 ) N ;
+    - oram_dout0[30] + NET oram_dout0[30] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 422050 757930 ) N ;
+    - oram_dout0[31] + NET oram_dout0[31] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 534750 2000 ) N ;
+    - oram_dout0[3] + NET oram_dout0[3] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 71070 2000 ) N ;
+    - oram_dout0[4] + NET oram_dout0[4] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 267490 2000 ) N ;
+    - oram_dout0[5] + NET oram_dout0[5] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 3740 ) N ;
+    - oram_dout0[6] + NET oram_dout0[6] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 357340 ) N ;
+    - oram_dout0[7] + NET oram_dout0[7] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 309740 ) N ;
+    - oram_dout0[8] + NET oram_dout0[8] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 583050 2000 ) N ;
+    - oram_dout0[9] + NET oram_dout0[9] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 22770 2000 ) N ;
+    - oram_dout1[0] + NET oram_dout1[0] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 129540 ) N ;
+    - oram_dout1[10] + NET oram_dout1[10] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 717740 ) N ;
+    - oram_dout1[11] + NET oram_dout1[11] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 24140 ) N ;
+    - oram_dout1[12] + NET oram_dout1[12] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 568140 ) N ;
+    - oram_dout1[13] + NET oram_dout1[13] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 653890 2000 ) N ;
+    - oram_dout1[14] + NET oram_dout1[14] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 619140 ) N ;
+    - oram_dout1[15] + NET oram_dout1[15] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 384540 ) N ;
+    - oram_dout1[16] + NET oram_dout1[16] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 6670 757930 ) N ;
+    - oram_dout1[17] + NET oram_dout1[17] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 386630 2000 ) N ;
+    - oram_dout1[18] + NET oram_dout1[18] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 230 2000 ) N ;
+    - oram_dout1[19] + NET oram_dout1[19] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 486450 2000 ) N ;
+    - oram_dout1[1] + NET oram_dout1[1] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 153340 ) N ;
+    - oram_dout1[20] + NET oram_dout1[20] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 273930 757930 ) N ;
+    - oram_dout1[21] + NET oram_dout1[21] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 518650 757930 ) N ;
+    - oram_dout1[22] + NET oram_dout1[22] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 639540 ) N ;
+    - oram_dout1[23] + NET oram_dout1[23] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 119370 2000 ) N ;
+    - oram_dout1[24] + NET oram_dout1[24] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 48530 2000 ) N ;
+    - oram_dout1[25] + NET oram_dout1[25] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 615250 757930 ) N ;
+    - oram_dout1[26] + NET oram_dout1[26] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 470350 757930 ) N ;
+    - oram_dout1[27] + NET oram_dout1[27] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 338330 2000 ) N ;
+    - oram_dout1[28] + NET oram_dout1[28] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 689310 757930 ) N ;
+    - oram_dout1[29] + NET oram_dout1[29] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 105740 ) N ;
+    - oram_dout1[2] + NET oram_dout1[2] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 744940 ) N ;
+    - oram_dout1[30] + NET oram_dout1[30] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 255340 ) N ;
+    - oram_dout1[31] + NET oram_dout1[31] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 145130 2000 ) N ;
+    - oram_dout1[3] + NET oram_dout1[3] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 241730 2000 ) N ;
+    - oram_dout1[4] + NET oram_dout1[4] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 228140 ) N ;
+    - oram_dout1[5] + NET oram_dout1[5] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 466140 ) N ;
+    - oram_dout1[6] + NET oram_dout1[6] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 412390 2000 ) N ;
+    - oram_dout1[7] + NET oram_dout1[7] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 177140 ) N ;
+    - oram_dout1[8] + NET oram_dout1[8] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 566950 757930 ) N ;
+    - oram_dout1[9] + NET oram_dout1[9] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 32430 757930 ) N ;
+    - oram_web0 + NET oram_web0 + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 151570 757930 ) N ;
+    - oram_wmask0[0] + NET oram_wmask0[0] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met2 ( -140 -2000 ) ( 140 2000 )
+        + PLACED ( 508990 2000 ) N ;
+    - oram_wmask0[1] + NET oram_wmask0[1] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 204340 ) N ;
+    - oram_wmask0[2] + NET oram_wmask0[2] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 2000 666740 ) N ;
+    - oram_wmask0[3] + NET oram_wmask0[3] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER met3 ( -2000 -300 ) ( 2000 300 )
+        + PLACED ( 747210 360740 ) N ;
+END PINS
+NETS 121 ;
+    - oram_addr0[0] ( PIN oram_addr0[0] ) ( openram_1kB addr0[0] ) + USE SIGNAL ;
+    - oram_addr0[1] ( PIN oram_addr0[1] ) ( openram_1kB addr0[1] ) + USE SIGNAL ;
+    - oram_addr0[2] ( PIN oram_addr0[2] ) ( openram_1kB addr0[2] ) + USE SIGNAL ;
+    - oram_addr0[3] ( PIN oram_addr0[3] ) ( openram_1kB addr0[3] ) + USE SIGNAL ;
+    - oram_addr0[4] ( PIN oram_addr0[4] ) ( openram_1kB addr0[4] ) + USE SIGNAL ;
+    - oram_addr0[5] ( PIN oram_addr0[5] ) ( openram_1kB addr0[5] ) + USE SIGNAL ;
+    - oram_addr0[6] ( PIN oram_addr0[6] ) ( openram_1kB addr0[6] ) + USE SIGNAL ;
+    - oram_addr0[7] ( PIN oram_addr0[7] ) ( openram_1kB addr0[7] ) + USE SIGNAL ;
+    - oram_addr1[0] ( PIN oram_addr1[0] ) ( openram_1kB addr1[0] ) + USE SIGNAL ;
+    - oram_addr1[1] ( PIN oram_addr1[1] ) ( openram_1kB addr1[1] ) + USE SIGNAL ;
+    - oram_addr1[2] ( PIN oram_addr1[2] ) ( openram_1kB addr1[2] ) + USE SIGNAL ;
+    - oram_addr1[3] ( PIN oram_addr1[3] ) ( openram_1kB addr1[3] ) + USE SIGNAL ;
+    - oram_addr1[4] ( PIN oram_addr1[4] ) ( openram_1kB addr1[4] ) + USE SIGNAL ;
+    - oram_addr1[5] ( PIN oram_addr1[5] ) ( openram_1kB addr1[5] ) + USE SIGNAL ;
+    - oram_addr1[6] ( PIN oram_addr1[6] ) ( openram_1kB addr1[6] ) + USE SIGNAL ;
+    - oram_addr1[7] ( PIN oram_addr1[7] ) ( openram_1kB addr1[7] ) + USE SIGNAL ;
+    - oram_clk0 ( PIN oram_clk0 ) ( openram_1kB clk0 ) + USE SIGNAL ;
+    - oram_clk1 ( PIN oram_clk1 ) ( openram_1kB clk1 ) + USE SIGNAL ;
+    - oram_csb0 ( PIN oram_csb0 ) ( openram_1kB csb0 ) + USE SIGNAL ;
+    - oram_csb1 ( PIN oram_csb1 ) ( openram_1kB csb1 ) + USE SIGNAL ;
+    - oram_din0[0] ( PIN oram_din0[0] ) ( openram_1kB din0[0] ) + USE SIGNAL ;
+    - oram_din0[10] ( PIN oram_din0[10] ) ( openram_1kB din0[10] ) + USE SIGNAL ;
+    - oram_din0[11] ( PIN oram_din0[11] ) ( openram_1kB din0[11] ) + USE SIGNAL ;
+    - oram_din0[12] ( PIN oram_din0[12] ) ( openram_1kB din0[12] ) + USE SIGNAL ;
+    - oram_din0[13] ( PIN oram_din0[13] ) ( openram_1kB din0[13] ) + USE SIGNAL ;
+    - oram_din0[14] ( PIN oram_din0[14] ) ( openram_1kB din0[14] ) + USE SIGNAL ;
+    - oram_din0[15] ( PIN oram_din0[15] ) ( openram_1kB din0[15] ) + USE SIGNAL ;
+    - oram_din0[16] ( PIN oram_din0[16] ) ( openram_1kB din0[16] ) + USE SIGNAL ;
+    - oram_din0[17] ( PIN oram_din0[17] ) ( openram_1kB din0[17] ) + USE SIGNAL ;
+    - oram_din0[18] ( PIN oram_din0[18] ) ( openram_1kB din0[18] ) + USE SIGNAL ;
+    - oram_din0[19] ( PIN oram_din0[19] ) ( openram_1kB din0[19] ) + USE SIGNAL ;
+    - oram_din0[1] ( PIN oram_din0[1] ) ( openram_1kB din0[1] ) + USE SIGNAL ;
+    - oram_din0[20] ( PIN oram_din0[20] ) ( openram_1kB din0[20] ) + USE SIGNAL ;
+    - oram_din0[21] ( PIN oram_din0[21] ) ( openram_1kB din0[21] ) + USE SIGNAL ;
+    - oram_din0[22] ( PIN oram_din0[22] ) ( openram_1kB din0[22] ) + USE SIGNAL ;
+    - oram_din0[23] ( PIN oram_din0[23] ) ( openram_1kB din0[23] ) + USE SIGNAL ;
+    - oram_din0[24] ( PIN oram_din0[24] ) ( openram_1kB din0[24] ) + USE SIGNAL ;
+    - oram_din0[25] ( PIN oram_din0[25] ) ( openram_1kB din0[25] ) + USE SIGNAL ;
+    - oram_din0[26] ( PIN oram_din0[26] ) ( openram_1kB din0[26] ) + USE SIGNAL ;
+    - oram_din0[27] ( PIN oram_din0[27] ) ( openram_1kB din0[27] ) + USE SIGNAL ;
+    - oram_din0[28] ( PIN oram_din0[28] ) ( openram_1kB din0[28] ) + USE SIGNAL ;
+    - oram_din0[29] ( PIN oram_din0[29] ) ( openram_1kB din0[29] ) + USE SIGNAL ;
+    - oram_din0[2] ( PIN oram_din0[2] ) ( openram_1kB din0[2] ) + USE SIGNAL ;
+    - oram_din0[30] ( PIN oram_din0[30] ) ( openram_1kB din0[30] ) + USE SIGNAL ;
+    - oram_din0[31] ( PIN oram_din0[31] ) ( openram_1kB din0[31] ) + USE SIGNAL ;
+    - oram_din0[3] ( PIN oram_din0[3] ) ( openram_1kB din0[3] ) + USE SIGNAL ;
+    - oram_din0[4] ( PIN oram_din0[4] ) ( openram_1kB din0[4] ) + USE SIGNAL ;
+    - oram_din0[5] ( PIN oram_din0[5] ) ( openram_1kB din0[5] ) + USE SIGNAL ;
+    - oram_din0[6] ( PIN oram_din0[6] ) ( openram_1kB din0[6] ) + USE SIGNAL ;
+    - oram_din0[7] ( PIN oram_din0[7] ) ( openram_1kB din0[7] ) + USE SIGNAL ;
+    - oram_din0[8] ( PIN oram_din0[8] ) ( openram_1kB din0[8] ) + USE SIGNAL ;
+    - oram_din0[9] ( PIN oram_din0[9] ) ( openram_1kB din0[9] ) + USE SIGNAL ;
+    - oram_dout0[0] ( PIN oram_dout0[0] ) ( openram_1kB dout0[0] ) + USE SIGNAL ;
+    - oram_dout0[10] ( PIN oram_dout0[10] ) ( openram_1kB dout0[10] ) + USE SIGNAL ;
+    - oram_dout0[11] ( PIN oram_dout0[11] ) ( openram_1kB dout0[11] ) + USE SIGNAL ;
+    - oram_dout0[12] ( PIN oram_dout0[12] ) ( openram_1kB dout0[12] ) + USE SIGNAL ;
+    - oram_dout0[13] ( PIN oram_dout0[13] ) ( openram_1kB dout0[13] ) + USE SIGNAL ;
+    - oram_dout0[14] ( PIN oram_dout0[14] ) ( openram_1kB dout0[14] ) + USE SIGNAL ;
+    - oram_dout0[15] ( PIN oram_dout0[15] ) ( openram_1kB dout0[15] ) + USE SIGNAL ;
+    - oram_dout0[16] ( PIN oram_dout0[16] ) ( openram_1kB dout0[16] ) + USE SIGNAL ;
+    - oram_dout0[17] ( PIN oram_dout0[17] ) ( openram_1kB dout0[17] ) + USE SIGNAL ;
+    - oram_dout0[18] ( PIN oram_dout0[18] ) ( openram_1kB dout0[18] ) + USE SIGNAL ;
+    - oram_dout0[19] ( PIN oram_dout0[19] ) ( openram_1kB dout0[19] ) + USE SIGNAL ;
+    - oram_dout0[1] ( PIN oram_dout0[1] ) ( openram_1kB dout0[1] ) + USE SIGNAL ;
+    - oram_dout0[20] ( PIN oram_dout0[20] ) ( openram_1kB dout0[20] ) + USE SIGNAL ;
+    - oram_dout0[21] ( PIN oram_dout0[21] ) ( openram_1kB dout0[21] ) + USE SIGNAL ;
+    - oram_dout0[22] ( PIN oram_dout0[22] ) ( openram_1kB dout0[22] ) + USE SIGNAL ;
+    - oram_dout0[23] ( PIN oram_dout0[23] ) ( openram_1kB dout0[23] ) + USE SIGNAL ;
+    - oram_dout0[24] ( PIN oram_dout0[24] ) ( openram_1kB dout0[24] ) + USE SIGNAL ;
+    - oram_dout0[25] ( PIN oram_dout0[25] ) ( openram_1kB dout0[25] ) + USE SIGNAL ;
+    - oram_dout0[26] ( PIN oram_dout0[26] ) ( openram_1kB dout0[26] ) + USE SIGNAL ;
+    - oram_dout0[27] ( PIN oram_dout0[27] ) ( openram_1kB dout0[27] ) + USE SIGNAL ;
+    - oram_dout0[28] ( PIN oram_dout0[28] ) ( openram_1kB dout0[28] ) + USE SIGNAL ;
+    - oram_dout0[29] ( PIN oram_dout0[29] ) ( openram_1kB dout0[29] ) + USE SIGNAL ;
+    - oram_dout0[2] ( PIN oram_dout0[2] ) ( openram_1kB dout0[2] ) + USE SIGNAL ;
+    - oram_dout0[30] ( PIN oram_dout0[30] ) ( openram_1kB dout0[30] ) + USE SIGNAL ;
+    - oram_dout0[31] ( PIN oram_dout0[31] ) ( openram_1kB dout0[31] ) + USE SIGNAL ;
+    - oram_dout0[3] ( PIN oram_dout0[3] ) ( openram_1kB dout0[3] ) + USE SIGNAL ;
+    - oram_dout0[4] ( PIN oram_dout0[4] ) ( openram_1kB dout0[4] ) + USE SIGNAL ;
+    - oram_dout0[5] ( PIN oram_dout0[5] ) ( openram_1kB dout0[5] ) + USE SIGNAL ;
+    - oram_dout0[6] ( PIN oram_dout0[6] ) ( openram_1kB dout0[6] ) + USE SIGNAL ;
+    - oram_dout0[7] ( PIN oram_dout0[7] ) ( openram_1kB dout0[7] ) + USE SIGNAL ;
+    - oram_dout0[8] ( PIN oram_dout0[8] ) ( openram_1kB dout0[8] ) + USE SIGNAL ;
+    - oram_dout0[9] ( PIN oram_dout0[9] ) ( openram_1kB dout0[9] ) + USE SIGNAL ;
+    - oram_dout1[0] ( PIN oram_dout1[0] ) ( openram_1kB dout1[0] ) + USE SIGNAL ;
+    - oram_dout1[10] ( PIN oram_dout1[10] ) ( openram_1kB dout1[10] ) + USE SIGNAL ;
+    - oram_dout1[11] ( PIN oram_dout1[11] ) ( openram_1kB dout1[11] ) + USE SIGNAL ;
+    - oram_dout1[12] ( PIN oram_dout1[12] ) ( openram_1kB dout1[12] ) + USE SIGNAL ;
+    - oram_dout1[13] ( PIN oram_dout1[13] ) ( openram_1kB dout1[13] ) + USE SIGNAL ;
+    - oram_dout1[14] ( PIN oram_dout1[14] ) ( openram_1kB dout1[14] ) + USE SIGNAL ;
+    - oram_dout1[15] ( PIN oram_dout1[15] ) ( openram_1kB dout1[15] ) + USE SIGNAL ;
+    - oram_dout1[16] ( PIN oram_dout1[16] ) ( openram_1kB dout1[16] ) + USE SIGNAL ;
+    - oram_dout1[17] ( PIN oram_dout1[17] ) ( openram_1kB dout1[17] ) + USE SIGNAL ;
+    - oram_dout1[18] ( PIN oram_dout1[18] ) ( openram_1kB dout1[18] ) + USE SIGNAL ;
+    - oram_dout1[19] ( PIN oram_dout1[19] ) ( openram_1kB dout1[19] ) + USE SIGNAL ;
+    - oram_dout1[1] ( PIN oram_dout1[1] ) ( openram_1kB dout1[1] ) + USE SIGNAL ;
+    - oram_dout1[20] ( PIN oram_dout1[20] ) ( openram_1kB dout1[20] ) + USE SIGNAL ;
+    - oram_dout1[21] ( PIN oram_dout1[21] ) ( openram_1kB dout1[21] ) + USE SIGNAL ;
+    - oram_dout1[22] ( PIN oram_dout1[22] ) ( openram_1kB dout1[22] ) + USE SIGNAL ;
+    - oram_dout1[23] ( PIN oram_dout1[23] ) ( openram_1kB dout1[23] ) + USE SIGNAL ;
+    - oram_dout1[24] ( PIN oram_dout1[24] ) ( openram_1kB dout1[24] ) + USE SIGNAL ;
+    - oram_dout1[25] ( PIN oram_dout1[25] ) ( openram_1kB dout1[25] ) + USE SIGNAL ;
+    - oram_dout1[26] ( PIN oram_dout1[26] ) ( openram_1kB dout1[26] ) + USE SIGNAL ;
+    - oram_dout1[27] ( PIN oram_dout1[27] ) ( openram_1kB dout1[27] ) + USE SIGNAL ;
+    - oram_dout1[28] ( PIN oram_dout1[28] ) ( openram_1kB dout1[28] ) + USE SIGNAL ;
+    - oram_dout1[29] ( PIN oram_dout1[29] ) ( openram_1kB dout1[29] ) + USE SIGNAL ;
+    - oram_dout1[2] ( PIN oram_dout1[2] ) ( openram_1kB dout1[2] ) + USE SIGNAL ;
+    - oram_dout1[30] ( PIN oram_dout1[30] ) ( openram_1kB dout1[30] ) + USE SIGNAL ;
+    - oram_dout1[31] ( PIN oram_dout1[31] ) ( openram_1kB dout1[31] ) + USE SIGNAL ;
+    - oram_dout1[3] ( PIN oram_dout1[3] ) ( openram_1kB dout1[3] ) + USE SIGNAL ;
+    - oram_dout1[4] ( PIN oram_dout1[4] ) ( openram_1kB dout1[4] ) + USE SIGNAL ;
+    - oram_dout1[5] ( PIN oram_dout1[5] ) ( openram_1kB dout1[5] ) + USE SIGNAL ;
+    - oram_dout1[6] ( PIN oram_dout1[6] ) ( openram_1kB dout1[6] ) + USE SIGNAL ;
+    - oram_dout1[7] ( PIN oram_dout1[7] ) ( openram_1kB dout1[7] ) + USE SIGNAL ;
+    - oram_dout1[8] ( PIN oram_dout1[8] ) ( openram_1kB dout1[8] ) + USE SIGNAL ;
+    - oram_dout1[9] ( PIN oram_dout1[9] ) ( openram_1kB dout1[9] ) + USE SIGNAL ;
+    - oram_web0 ( PIN oram_web0 ) ( openram_1kB web0 ) + USE SIGNAL ;
+    - oram_wmask0[0] ( PIN oram_wmask0[0] ) ( openram_1kB wmask0[0] ) + USE SIGNAL ;
+    - oram_wmask0[1] ( PIN oram_wmask0[1] ) ( openram_1kB wmask0[1] ) + USE SIGNAL ;
+    - oram_wmask0[2] ( PIN oram_wmask0[2] ) ( openram_1kB wmask0[2] ) + USE SIGNAL ;
+    - oram_wmask0[3] ( PIN oram_wmask0[3] ) ( openram_1kB wmask0[3] ) + USE SIGNAL ;
+END NETS
+END DESIGN

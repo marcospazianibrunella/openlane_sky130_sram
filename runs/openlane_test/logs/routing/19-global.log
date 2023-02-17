@@ -1,0 +1,101 @@
+OpenROAD 4174c3ad802d2ac1d04d387d2c4b883903f6647e 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef at line 930.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/routing/18-fill.def
+[INFO ODB-0128] Design: ram_example
+[INFO ODB-0130]     Created 123 pins.
+[INFO ODB-0131]     Created 48419 components and 180335 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 15866 connections.
+[INFO ODB-0133]     Created 240 nets and 359 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/routing/18-fill.def
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 2 clock nets.
+[WARNING GRT-0035] Pin openram_1kB/clk1 is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[1] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[20] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[21] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[22] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[23] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[24] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[25] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[26] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[27] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[28] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[29] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[2] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[2] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[30] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[31] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[3] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[4] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[5] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[6] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[7] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[8] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[9] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[3] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[4] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[5] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[6] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[7] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/csb1 is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[25] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[26] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[27] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[28] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[29] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[30] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/din0[31] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[18] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[19] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[20] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[21] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[22] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[23] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[24] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[25] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[26] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[27] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[28] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[29] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[30] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout0[31] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[0] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[10] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/addr1[0] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[11] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[12] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[13] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[14] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[15] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[16] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[17] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[18] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[19] is outside die area.
+[WARNING GRT-0035] Pin openram_1kB/dout1[1] is outside die area.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 2
+[ERROR GRT-0039] Found pin outside die area in instance openram_1kB.
+Error: groute.tcl, 55 GRT-0039

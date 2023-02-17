@@ -1,0 +1,29 @@
+{
+    "PDK": "sky130B",
+    "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+    "DESIGN_NAME": "ram_example",
+    "FP_CORE_UTIL": "35",
+    "FP_SIZING": "relative",
+    "DIE_AREA": "0 0 10000000 10000000",
+    "FP_PDN_VOFFSET": 0,
+    "FP_PDN_VPITCH": 30,
+    "FP_PDN_CHECK_NODES": false,
+    "MACRO_PLACEMENT_CFG": "dir::macro_placement.cfg",
+    "BASE_SDC_FILE": "dir::base.sdc",
+    "PL_TARGET_DENSITY": 1,
+    "PL_BASIC_PLACEMENT": 1,
+    "DPL_CELL_PADDING": 0,
+    "CLOCK_PERIOD": 100,
+    "CLOCK_PORT": "oram_clk0 oram_clk1",
+    "CLOCK_TREE_SYNTH": false,
+    "DIODE_INSERTION_STRATEGY": 0,
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": false,
+    "VERILOG_FILES": "dir::src/*.v",
+    "EXTRA_LEFS": "dir::macros/lef/*.lef",
+    "EXTRA_GDS_FILES": "dir::macros/gds/*.gds",
+    "pdk::sky130*": {
+        "scl::sky130_fd_sc_hd": {
+            "SYNTH_STRATEGY": "DELAY 2"
+        }
+    }
+}

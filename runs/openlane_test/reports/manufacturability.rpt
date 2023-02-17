@@ -1,0 +1,12 @@
+Design Name: ram_example
+Run Directory: /openlane/designs/ram_example/runs/openlane_test
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/ram_example/runs/openlane_test/logs/signoff/ram_example.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

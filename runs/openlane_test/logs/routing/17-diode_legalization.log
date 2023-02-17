@@ -1,0 +1,33 @@
+OpenROAD 4174c3ad802d2ac1d04d387d2c4b883903f6647e 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef at line 930.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/ram_example/runs/openlane_test/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/cts/13-resizer_timing.buffers_removed.buffers_removed.def
+[INFO ODB-0128] Design: ram_example
+[INFO ODB-0130]     Created 123 pins.
+[INFO ODB-0131]     Created 7511 components and 16703 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 15866 connections.
+[INFO ODB-0133]     Created 240 nets and 359 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/cts/13-resizer_timing.buffers_removed.buffers_removed.def
+[WARNING DPL-0037] Use remove_fillers before detailed placement.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           94631.6 u
+legalized HPWL          94744.5 u
+delta HPWL                    0 %
+
+[INFO DPL-0020] Mirrored 62 instances
+[INFO DPL-0021] HPWL before           94744.5 u
+[INFO DPL-0022] HPWL after            94631.6 u
+[INFO DPL-0023] HPWL delta               -0.1 %

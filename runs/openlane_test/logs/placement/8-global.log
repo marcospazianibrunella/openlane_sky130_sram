@@ -13,8 +13,8 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/floorplan/7-pdn.def
 [INFO ODB-0128] Design: ram_example
 [INFO ODB-0130]     Created 123 pins.
-[INFO ODB-0131]     Created 7392 components and 15989 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 15866 connections.
+[INFO ODB-0131]     Created 5589 components and 13003 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 12880 connections.
 [INFO ODB-0133]     Created 121 nets and 121 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/floorplan/7-pdn.def
 [WARN] All instances are FIXED

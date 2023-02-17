@@ -13,8 +13,8 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/routing/18-fill.def
 [INFO ODB-0128] Design: ram_example
 [INFO ODB-0130]     Created 123 pins.
-[INFO ODB-0131]     Created 48419 components and 180335 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 15866 connections.
+[INFO ODB-0131]     Created 33899 components and 126481 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 12880 connections.
 [INFO ODB-0133]     Created 240 nets and 359 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/routing/18-fill.def
 [INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
@@ -32,70 +32,155 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
 [INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
 [INFO GRT-0019] Found 2 clock nets.
-[WARNING GRT-0035] Pin openram_1kB/clk1 is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[1] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[20] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[21] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[22] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[23] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[24] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[25] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[26] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[27] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[28] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[29] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[2] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[2] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[30] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[31] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[3] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[4] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[5] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[6] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[7] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[8] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[9] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[3] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[4] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[5] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[6] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[7] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/csb1 is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[25] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[26] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[27] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[28] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[29] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[30] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/din0[31] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[18] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[19] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[20] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[21] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[22] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[23] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[24] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[25] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[26] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[27] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[28] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[29] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[30] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout0[31] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[0] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[10] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/addr1[0] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[11] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[12] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[13] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[14] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[15] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[16] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[17] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[18] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[19] is outside die area.
-[WARNING GRT-0035] Pin openram_1kB/dout1[1] is outside die area.
 [INFO GRT-0001] Minimum degree: 2
 [INFO GRT-0002] Maximum degree: 2
-[ERROR GRT-0039] Found pin outside die area in instance openram_1kB.
-Error: groute.tcl, 55 GRT-0039
+[INFO GRT-0003] Macros: 1
+[INFO GRT-0004] Blockages: 197
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal     237600         91626          61.44%
+met2       Vertical       178200         79010          55.66%
+met3       Horizontal     118800         54501          54.12%
+met4       Vertical        71280         28729          59.70%
+met5       Horizontal      23760         11770          50.46%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 706
+[INFO GRT-0198] Via related Steiner nodes: 0
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 946
+[INFO GRT-0112] Final usage 3D: 14594
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1             91626          5180            5.65%             0 /  0 /  0
+met2             79010          5591            7.08%             0 /  0 /  0
+met3             54501           641            1.18%             0 /  0 /  0
+met4             28729           253            0.88%             0 /  0 /  0
+met5             11770            91            0.77%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           265636         11756            4.43%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 88913 um
+[INFO GRT-0014] Routed nets: 240
+[INFO]: Setting RC values...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: oram_clk1 (clock source 'clk1')
+Endpoint: openram_1kB/clk1 (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00   50.00 v oram_clk1 (in)
+     1    0.05                           oram_clk1 (net)
+                  0.02    0.01   50.01 v openram_1kB/clk1 (sky130_sram_1kbyte_1rw1r_32x256_8)
+                                 50.01   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock clk0
+No launch/capture paths found.
+
+Clock clk1
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.29e-13   5.18e-13   1.89e-08   1.89e-08 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.29e-13   5.18e-13   1.89e-08   1.89e-08 100.0%
+                           0.0%       0.0%     100.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 197605 u^2 36% utilization.
+area_report_end

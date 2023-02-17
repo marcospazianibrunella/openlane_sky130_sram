@@ -16,6 +16,6 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0131]     Created 1 components and 123 component-terminals.
 [INFO ODB-0133]     Created 121 nets and 121 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/floorplan/4-io.macro_placement.def
-[INFO ODB-0303] The initial 271 rows (434684 sites) were cut with 1 shapes for a total of 271 rows (382339 sites).
-[INFO TAP-0004] Inserted 542 endcaps.
-[INFO TAP-0005] Inserted 6849 tapcells.
+[INFO ODB-0303] The initial 271 rows (434684 sites) were cut with 1 shapes for a total of 426 rows (266044 sites).
+[INFO TAP-0004] Inserted 852 endcaps.
+[INFO TAP-0005] Inserted 4736 tapcells.

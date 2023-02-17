@@ -13,18 +13,10 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/results/floorplan/ram_example.def
 [INFO ODB-0128] Design: ram_example
 [INFO ODB-0130]     Created 121 pins.
-[INFO ODB-0131]     Created 7392 components and 15989 component-terminals.
+[INFO ODB-0131]     Created 5589 components and 13003 component-terminals.
 [INFO ODB-0133]     Created 121 nets and 121 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/results/floorplan/ram_example.def
 [WARNING PDN-0189] Supply pin vccd1 of instance openram_1kB is not connected to any net.
 [WARNING PDN-0189] Supply pin vssd1 of instance openram_1kB is not connected to any net.
 [INFO PDN-0001] Inserting grid: stdcell_grid
 [INFO PDN-0001] Inserting grid: macro - openram_1kB
-[WARNING PDN-0110] No via inserted between met4 and met5 at (518.0200, 489.5700) - (519.6200, 490.3200) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (548.0200, 489.5700) - (549.6200, 490.3200) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (578.0200, 489.5700) - (579.6200, 489.7000) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (608.0200, 489.5700) - (609.6200, 490.3200) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (638.0200, 489.5700) - (639.6200, 489.7000) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (668.0200, 489.5700) - (669.6200, 490.3200) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (698.0200, 489.5700) - (699.6200, 490.3200) on VGND
-[WARNING PDN-0110] No via inserted between met4 and met5 at (728.0200, 489.5700) - (729.6200, 489.7000) on VGND

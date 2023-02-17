@@ -13,29 +13,29 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0127] Reading DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/placement/8-global.def
 [INFO ODB-0128] Design: ram_example
 [INFO ODB-0130]     Created 123 pins.
-[INFO ODB-0131]     Created 7392 components and 15989 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 15866 connections.
+[INFO ODB-0131]     Created 5589 components and 13003 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 12880 connections.
 [INFO ODB-0133]     Created 121 nets and 121 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/placement/8-global.def
 [INFO]: Setting RC values...
 [INFO RSZ-0027] Inserted 55 input buffers.
 [INFO RSZ-0028] Inserted 64 output buffers.
 [INFO RSZ-0058] Using max wire length 2947um.
-[INFO RSZ-0039] Resized 53 instances.
+[INFO RSZ-0039] Resized 54 instances.
 [WARNING DPL-0037] Use remove_fillers before detailed placement.
 Placement Analysis
 ---------------------------------
-total displacement       3183.0 u
-average displacement        0.4 u
-max displacement          280.4 u
-original HPWL           91016.4 u
-legalized HPWL          94744.5 u
-delta HPWL                    4 %
+total displacement        221.4 u
+average displacement        0.0 u
+max displacement           10.7 u
+original HPWL           76108.7 u
+legalized HPWL          76150.1 u
+delta HPWL                    0 %
 
-[INFO DPL-0020] Mirrored 62 instances
-[INFO DPL-0021] HPWL before           94744.5 u
-[INFO DPL-0022] HPWL after            94631.6 u
-[INFO DPL-0023] HPWL delta               -0.1 %
+[INFO DPL-0020] Mirrored 65 instances
+[INFO DPL-0021] HPWL before           76150.1 u
+[INFO DPL-0022] HPWL after            76003.6 u
+[INFO DPL-0023] HPWL delta               -0.2 %
 min_report
 
 ===========================================================================
@@ -135,11 +135,11 @@ Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power (Watts)
 ----------------------------------------------------------------
 Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-Combinational          3.11e-13   5.11e-13   2.19e-09   2.19e-09 100.0%
+Combinational          3.28e-13   5.13e-13   3.21e-09   3.21e-09 100.0%
 Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 ----------------------------------------------------------------
-Total                  3.11e-13   5.11e-13   2.19e-09   2.19e-09 100.0%
+Total                  3.28e-13   5.13e-13   3.21e-09   3.21e-09 100.0%
                            0.0%       0.0%     100.0%
 power_report_end
 area_report
@@ -147,5 +147,5 @@ area_report
 ===========================================================================
  report_design_area
 ============================================================================
-Design area 200210 u^2 37% utilization.
+Design area 197605 u^2 36% utilization.
 area_report_end

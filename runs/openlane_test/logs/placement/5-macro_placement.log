@@ -17,7 +17,7 @@ To avoid this warning in the future, remove this statement from the LEF file wit
 [INFO ODB-0133]     Created 121 nets and 121 connections.
 [INFO ODB-0134] Finished DEF file: /openlane/designs/ram_example/runs/openlane_test/tmp/floorplan/4-io.def
 Placing the following macros:
-{'openram_1kB': ['500000', '500000', 'N']}
+{'openram_1kB': ['130000', '140000', 'N']}
 Design name: ram_example
 Placing openram_1kB
 Successfully placed 1 instances

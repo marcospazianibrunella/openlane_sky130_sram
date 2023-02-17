@@ -545,11 +545,11 @@ Mapping DFF cells in module `\ram_example':
    Number of cells:                  1
      sky130_sram_1kbyte_1rw1r_32x256_8      1
 
-[INFO]: USING STRATEGY DELAY 2
+[INFO]: USING STRATEGY AREA 0
 
 17. Executing ABC pass (technology mapping using ABC).
 
-17.1. Extracting gate netlist of module `\ram_example' to `/tmp/yosys-abc-m3hST8/input.blif'..
+17.1. Extracting gate netlist of module `\ram_example' to `/tmp/yosys-abc-GjY0IU/input.blif'..
 Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
 Don't call ABC as there is nothing to map.
 Removing temp directory.
@@ -592,6 +592,6 @@ Found and reported 0 problems.
 25.2. Executing DEMUXMAP pass.
 Dumping module `\ram_example'.
 
-End of script. Logfile hash: 2e8d3d6325, CPU: user 0.21s system 0.01s, MEM: 27.79 MB peak
+End of script. Logfile hash: c0f7843adb, CPU: user 0.21s system 0.01s, MEM: 27.80 MB peak
 Yosys 0.20+70 (git sha1 6e907acf86d, gcc 8.3.1 -fPIC -Os)
 Time spent: 38% 1x dfflibmap (0 sec), 38% 4x stat (0 sec), ...
